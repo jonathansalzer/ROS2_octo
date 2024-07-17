@@ -1,0 +1,2 @@
+[console_scripts]
+octo_target_pose = ros2_octo.octo_target_pose:main

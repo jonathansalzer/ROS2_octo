@@ -1,0 +1,162 @@
+[0.422s] Invoking command in '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/ros2_octo': CONDA_PROMPT_MODIFIER=(octo) PYTHONPATH=/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/prefix_override:/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros2_octo build --build-base /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build install --record /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log --single-version-externally-managed install_data
+[0.517s] running egg_info
+[0.517s] creating ../build/ros2_octo/ros2_octo.egg-info
+[0.522s] writing ../build/ros2_octo/ros2_octo.egg-info/PKG-INFO
+[0.522s] writing dependency_links to ../build/ros2_octo/ros2_octo.egg-info/dependency_links.txt
+[0.523s] writing entry points to ../build/ros2_octo/ros2_octo.egg-info/entry_points.txt
+[0.523s] writing requirements to ../build/ros2_octo/ros2_octo.egg-info/requires.txt
+[0.523s] writing top-level names to ../build/ros2_octo/ros2_octo.egg-info/top_level.txt
+[0.571s] writing manifest file '../build/ros2_octo/ros2_octo.egg-info/SOURCES.txt'
+[0.584s] reading manifest file '../build/ros2_octo/ros2_octo.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../build/ros2_octo/ros2_octo.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build
+[0.584s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib
+[0.585s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo
+[0.585s] copying ros2_octo/octo_target_pose.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo
+[0.585s] copying ros2_octo/octo_inference.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo
+[0.585s] copying ros2_octo/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo
+[0.585s] copying ros2_octo/camera.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo
+[0.585s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo
+[0.585s] copying ros2_octo/octo/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo
+[0.585s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/visualization_lib.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/train_callbacks.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/jax_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/spec.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/train_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/gym_wrappers.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] copying ros2_octo/octo/utils/typing.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils
+[0.585s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model
+[0.585s] copying ros2_octo/octo/model/octo_model.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model
+[0.585s] copying ros2_octo/octo/model/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model
+[0.585s] copying ros2_octo/octo/model/octo_module.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model
+[0.586s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data
+[0.586s] copying ros2_octo/octo/data/dataset.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data
+[0.586s] copying ros2_octo/octo/data/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data
+[0.586s] copying ros2_octo/octo/data/traj_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data
+[0.586s] copying ros2_octo/octo/data/obs_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data
+[0.586s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/unet.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/action_heads.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/tokenizers.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/block_transformer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/diffusion.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/vit_encoders.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/film_conditioning_layer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/transformer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] copying ros2_octo/octo/model/components/base.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components
+[0.586s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.586s] copying ros2_octo/octo/data/utils/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.586s] copying ros2_octo/octo/data/utils/data_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.586s] copying ros2_octo/octo/data/utils/text_processing.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.587s] copying ros2_octo/octo/data/utils/task_augmentation.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.587s] copying ros2_octo/octo/data/utils/goal_relabeling.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils
+[0.587s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe
+[0.587s] copying ros2_octo/octo/data/oxe/oxe_dataset_configs.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe
+[0.587s] copying ros2_octo/octo/data/oxe/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe
+[0.587s] copying ros2_octo/octo/data/oxe/oxe_standardization_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe
+[0.587s] copying ros2_octo/octo/data/oxe/oxe_dataset_mixes.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe
+[0.587s] running install
+[0.590s] running install_lib
+[0.596s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo_target_pose.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo_inference.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo
+[0.596s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo
+[0.596s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/visualization_lib.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/train_callbacks.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/jax_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/spec.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/train_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/gym_wrappers.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/utils/typing.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo
+[0.596s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/octo_model.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/octo_module.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model
+[0.596s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/unet.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.596s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/action_heads.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/tokenizers.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/block_transformer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/diffusion.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/vit_encoders.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/film_conditioning_layer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/transformer.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/model/components/base.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components
+[0.597s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/dataset.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data
+[0.597s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils/data_utils.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils/text_processing.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils/task_augmentation.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/utils/goal_relabeling.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/traj_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data
+[0.597s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe/oxe_dataset_configs.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe/__init__.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe/oxe_standardization_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/oxe/oxe_dataset_mixes.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/octo/data/obs_transforms.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data
+[0.597s] copying /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build/lib/ros2_octo/camera.py -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo
+[0.598s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo_target_pose.py to octo_target_pose.cpython-310.pyc
+[0.598s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo_inference.py to octo_inference.cpython-310.pyc
+[0.598s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/__init__.py to __init__.cpython-310.pyc
+[0.598s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/visualization_lib.py to visualization_lib.cpython-310.pyc
+[0.601s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/train_callbacks.py to train_callbacks.cpython-310.pyc
+[0.602s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/jax_utils.py to jax_utils.cpython-310.pyc
+[0.602s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/__init__.py to __init__.cpython-310.pyc
+[0.602s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/spec.py to spec.cpython-310.pyc
+[0.602s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/train_utils.py to train_utils.cpython-310.pyc
+[0.603s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/gym_wrappers.py to gym_wrappers.cpython-310.pyc
+[0.604s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/utils/typing.py to typing.cpython-310.pyc
+[0.604s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/__init__.py to __init__.cpython-310.pyc
+[0.604s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/octo_model.py to octo_model.cpython-310.pyc
+[0.606s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/__init__.py to __init__.cpython-310.pyc
+[0.606s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/octo_module.py to octo_module.cpython-310.pyc
+[0.606s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/unet.py to unet.cpython-310.pyc
+[0.607s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/__init__.py to __init__.cpython-310.pyc
+[0.607s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/action_heads.py to action_heads.cpython-310.pyc
+[0.609s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/tokenizers.py to tokenizers.cpython-310.pyc
+[0.610s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/block_transformer.py to block_transformer.cpython-310.pyc
+[0.611s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/diffusion.py to diffusion.cpython-310.pyc
+[0.611s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/vit_encoders.py to vit_encoders.cpython-310.pyc
+[0.612s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/film_conditioning_layer.py to film_conditioning_layer.cpython-310.pyc
+[0.612s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/transformer.py to transformer.cpython-310.pyc
+[0.613s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/model/components/base.py to base.cpython-310.pyc
+[0.613s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/dataset.py to dataset.cpython-310.pyc
+[0.614s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils/__init__.py to __init__.cpython-310.pyc
+[0.614s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils/data_utils.py to data_utils.cpython-310.pyc
+[0.615s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils/text_processing.py to text_processing.cpython-310.pyc
+[0.615s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils/task_augmentation.py to task_augmentation.cpython-310.pyc
+[0.616s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/utils/goal_relabeling.py to goal_relabeling.cpython-310.pyc
+[0.616s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/__init__.py to __init__.cpython-310.pyc
+[0.616s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/traj_transforms.py to traj_transforms.cpython-310.pyc
+[0.616s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe/oxe_dataset_configs.py to oxe_dataset_configs.cpython-310.pyc
+[0.617s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe/__init__.py to __init__.cpython-310.pyc
+[0.618s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe/oxe_standardization_transforms.py to oxe_standardization_transforms.cpython-310.pyc
+[0.620s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/oxe/oxe_dataset_mixes.py to oxe_dataset_mixes.cpython-310.pyc
+[0.620s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/octo/data/obs_transforms.py to obs_transforms.cpython-310.pyc
+[0.621s] byte-compiling /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo/camera.py to camera.cpython-310.pyc
+[0.621s] running install_data
+[0.621s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/share/ament_index
+[0.621s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/share/ament_index/resource_index
+[0.621s] creating /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/share/ament_index/resource_index/packages
+[0.621s] copying resource/ros2_octo -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/share/ament_index/resource_index/packages
+[0.621s] copying package.xml -> /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/share/ros2_octo
+[0.621s] running install_egg_info
+[0.628s] Copying ../build/ros2_octo/ros2_octo.egg-info to /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo-0.0.0-py3.10.egg-info
+[0.628s] running install_scripts
+[0.648s] Installing octo_target_pose script to /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/ros2_octo
+[0.648s] writing list of installed files to '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log'
+[0.660s] Invoked command in '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/ros2_octo' returned '0': CONDA_PROMPT_MODIFIER=(octo) PYTHONPATH=/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/prefix_override:/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros2_octo build --build-base /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build install --record /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log --single-version-externally-managed install_data

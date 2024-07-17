@@ -1,0 +1,21 @@
+[0.332s] Invoking command in '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/ros2_octo': CONDA_PROMPT_MODIFIER=(octo) PYTHONPATH=/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/prefix_override:/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros2_octo build --build-base /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build install --record /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log --single-version-externally-managed install_data
+[0.426s] running egg_info
+[0.432s] writing ../build/ros2_octo/ros2_octo.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../build/ros2_octo/ros2_octo.egg-info/dependency_links.txt
+[0.432s] writing entry points to ../build/ros2_octo/ros2_octo.egg-info/entry_points.txt
+[0.432s] writing requirements to ../build/ros2_octo/ros2_octo.egg-info/requires.txt
+[0.432s] writing top-level names to ../build/ros2_octo/ros2_octo.egg-info/top_level.txt
+[0.485s] reading manifest file '../build/ros2_octo/ros2_octo.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../build/ros2_octo/ros2_octo.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.487s] running install
+[0.489s] running install_lib
+[0.496s] running install_data
+[0.496s] running install_egg_info
+[0.502s] removing '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.502s] Copying ../build/ros2_octo/ros2_octo.egg-info to /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages/ros2_octo-0.0.0-py3.10.egg-info
+[0.503s] running install_scripts
+[0.523s] Installing octo_target_pose script to /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/ros2_octo
+[0.524s] writing list of installed files to '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log'
+[0.536s] Invoked command in '/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/ros2_octo' returned '0': CONDA_PROMPT_MODIFIER=(octo) PYTHONPATH=/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/prefix_override:/home/jonathan/Thesis/ROS2_octo/ros2_ws/src/install/ros2_octo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros2_octo build --build-base /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/build install --record /home/jonathan/Thesis/ROS2_octo/ros2_ws/src/build/ros2_octo/install.log --single-version-externally-managed install_data
